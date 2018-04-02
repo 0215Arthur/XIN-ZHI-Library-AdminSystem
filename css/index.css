@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    background-color: #667185;
+}
+#all{
+    margin: 0 auto;
+    width: 1000px;
+    height: 800px;
+    background-image: url("./images/shu.jpg");
+}
+#all .top{
+    margin: 0;
+    width: 1000px;
+    height: 60px;
+}
+#all .top .left{
+    margin: 0;
+    float: left;
+}
+#all .top .right{
+    margin: 0;
+    float: right;
+}
+#all .middle{
+    float: left;
+    margin: 0;
+    width: 1000px;
+    height: 740px;
+}
+#all .middle a{
+    font-size: 40px;
+    line-height: 30px;
+    text-decoration: none;
+
+}
+#all .middle .left{
+    float: left;
+    margin: 0;
+    width: 500px;
+    height: 740px;
+}
+#all .middle .right{
+    float: left;
+    margin: 0;
+    width: 500px;
+    height: 740px;
+}
+#center{
+    margin: 100px 80px;
+    width: 300px;
+    height: 80px;
+    text-align: center;
+}

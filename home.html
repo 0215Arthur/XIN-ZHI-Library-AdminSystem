@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>XIN知图书</title>
+	<link rel="stylesheet" href="css/common.css"/>
+	<script src="js/jquery_1.min.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="skinBg" style="background-image: url('images/lib.jpg');">
+		</div>
+		<header id="header">
+			<div class="weather fl">
+				<span class="cityW">
+					<span>嘉定：</span>
+					<span>
+						<span class="weatherIcon wI1"></span>
+						<span>-1 ~ 5℃</span>
+					</span>
+				</span>
+				<span class="sp">|</span>
+				<span class="pollution">
+					<span>空气质量：183</span>
+					<span class="polutionLevel">中度污染</span>
+				</span>
+				<div class="cityWeather">
+					
+				</div>
+			</div>
+			<nav class="headNavs fr tr">
+				<a href="login.html"><span class="s-icon s-icon-skin"></span><span>登陆后台</span></a>
+				<a><span class="s-icon s-icon-line"></span></a>
+				 
+				<a href="login_user.html"><span class="s-icon s-icon-skin"></span><span>学生登陆</span></a>
+				 
+				
+				 
+			</nav>
+		</header>
+		<div class="content tc">
+			<p class="logo"><img width="270" height="129" src="images/xinlogo.png" alt="logo" /></p>
+			 
+			<div class="searchBox">
+				<form action="select_author_or_name_action.php" method="post">
+					<input type="text" class="searchIpt f14" name="wd" placeholder="输入书名或作者名"   maxlength="100" autocomplete="off"/>
+					<input type="submit" class="btn cp" name="search" value="XIN知搜索" />
+				</form>
+			</div>
+			 
+				  
+	</div>
+	 <footer id="footer" class="tc">©2017 XinLibrary XIN青年联盟出品 同ICP证00001217号</footer>
+	 
+</body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+
+}
+#all{
+    margin: 0 auto;
+    width: 1200px;
+    height: 800px;
+}
+#all .top{
+    margin: 0;
+    width: 1200px;
+    height: 88px;
+    background-image: url("../images/topbg.gif");
+}
+#all .top .left{
+    margin: 0;
+    float: left;
+}
+#all .top .right{
+    margin: 0;
+    float: right;
+}
+#all .center{
+    float: left;
+    width: 1200px;
+    height: 712px;
+}
+#all .center .left{
+    margin: 0;
+    float: left;
+    width: 300px;
+    height: 712px;
+    background-image: url("../images/libg.png");
+}
+#all .center .right{
+    margin: 0;
+    float: left;
+    width: 900px;
+    height: 712px;
+    background-color:#066cae ;
+}
+#all .center .right .middle{
+    margin: 200px 200px;
+    width: 300px;
+    height: 300px;
+
+}
